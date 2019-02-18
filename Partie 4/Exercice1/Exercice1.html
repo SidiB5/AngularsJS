@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+    <title>Exercice 1</title>
+</head>
+<body ng-app="App">
+    <div class="main" ng-controller="mainController">
+        <button ng-click="plus()"> + </button>
+        <p> {{ count }} </p>
+        <button ng-click="minus()"> - </button>
+    </div>
+    <script src="script.js"></script>
+    <script src="mainController.js"></script>
+</body>
+</html>
