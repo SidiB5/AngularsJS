@@ -14,7 +14,7 @@
       <th>Modèle</th>
       <th>Marque</th>
     </thead>
-    <tr ng-repeat="phone in phones">
+    <tr ng-repeat="phone in phones | orderBy: 'phoneModel'">
       <td>
         {{phone.phoneModel}}
       </td>
